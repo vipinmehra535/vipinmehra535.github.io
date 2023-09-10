@@ -43617,11 +43617,15 @@ r=s.f
 r.L$=q
 r.K$=0
 s.aG()},
-I(a){var s,r=this,q=null,p=A.bo(a,B.bj,t.w).w,o=A.bB(q,q,B.m,q,q,q,q,q,q,q,q,q,q),n=r.w
-n=n!=null?A.rz(q,new A.lb(n),64):B.Ba
-s=t.E
-n=A.uH(B.dg,A.b([n,A.a9W(-10,A.fx(q,q,q,B.Eg,q,new A.ao9(new A.aoa(r)),q,q,q),q,q,80,q,q,q)],s),B.C,B.d3)
-return A.ni(q,A.azN(A.nh(!0,A.bB(q,A.fT(A.b([new A.kS(2,B.dI,o,q),B.yg,n,B.ct,new A.lB(r.r,!1,"Enter your username",B.ev,q),B.ct,new A.lB(r.d,!1,"Enter your email",B.yI,q),B.ct,new A.lB(r.e,!0,"Enter your password",B.ev,q),B.ct,new A.lB(r.f,!1,"Enter your bio",B.ev,q),B.ct,A.l1(!1,!0,A.bB(B.B,r.x?B.ds:B.RS,B.m,q,q,B.xQ,q,q,q,B.it,q,q,1/0),q,!0,q,q,q,q,q,q,q,q,q,new A.aoc(r,a),q,q,q,q),B.yf,new A.kS(2,B.dI,A.bB(q,q,B.m,q,q,q,q,q,q,q,q,q,q),q)],s),B.a9,B.ai,B.ab),B.m,q,q,q,q,p.a.b,q,B.mv,q,q,1/0),B.a4,!0),q),q)}}
+I(a){var s,r,q,p=this,o=null,n=A.bo(a,B.bj,t.w).w.a,m=n.a
+if(m>600){m/=3
+m=new A.ak(m,0,m,0)}else m=B.mv
+s=A.bB(o,o,B.m,o,o,o,o,o,o,o,o,o,o)
+r=p.w
+r=r!=null?A.rz(o,new A.lb(r),64):B.Ba
+q=t.E
+r=A.uH(B.dg,A.b([r,A.a9W(-10,A.fx(o,o,o,B.Eg,o,new A.ao9(new A.aoa(p)),o,o,o),o,o,80,o,o,o)],q),B.C,B.d3)
+return A.ni(o,A.azN(A.nh(!0,A.bB(o,A.fT(A.b([new A.kS(2,B.dI,s,o),B.yg,r,B.ct,new A.lB(p.r,!1,"Enter your username",B.ev,o),B.ct,new A.lB(p.d,!1,"Enter your email",B.yI,o),B.ct,new A.lB(p.e,!0,"Enter your password",B.ev,o),B.ct,new A.lB(p.f,!1,"Enter your bio",B.ev,o),B.ct,A.l1(!1,!0,A.bB(B.B,p.x?B.ds:B.RS,B.m,o,o,B.xQ,o,o,o,B.it,o,o,1/0),o,!0,o,o,o,o,o,o,o,o,o,new A.aoc(p,a),o,o,o,o),B.yf,new A.kS(2,B.dI,A.bB(o,o,B.m,o,o,o,o,o,o,o,o,o,o),o)],q),B.a9,B.ai,B.ab),B.m,o,o,o,o,n.b,o,m,o,o,1/0),B.a4,!0),o),o)}}
 A.aoa.prototype={
 $0(){var s=0,r=A.J(t.z),q=this,p,o,n,m
 var $async$$0=A.F(function(a,b){if(a===1)return A.G(b,r)
